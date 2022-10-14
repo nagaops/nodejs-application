@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
 
-  const msg = ' Aws and Devops-Sessions-1 ---- using jenkins'
+  const msg = ' Aws and Devops-Sessions-1 ---- using jenkins-declarative-pipeline'
   res.end(msg);
 });
 
